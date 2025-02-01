@@ -1,0 +1,9 @@
+{
+	"name": "factoryaccount109",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "4117782e-81ba-4298-afd5-c8e4619b2d88",
+		"tenantId": "441dc366-2988-4558-8827-718893181569"
+	}
+}
