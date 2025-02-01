@@ -1,10 +1,6 @@
 {
 	"name": "setgen2",
 	"properties": {
-		"linkedServiceName": {
-			"referenceName": "AzureDataLakeStoragelss",
-			"type": "LinkedServiceReference"
-		},
 		"annotations": [],
 		"type": "DelimitedText",
 		"typeProperties": {
