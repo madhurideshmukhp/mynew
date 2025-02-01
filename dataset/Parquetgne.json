@@ -1,10 +1,6 @@
 {
 	"name": "Parquetgne",
 	"properties": {
-		"linkedServiceName": {
-			"referenceName": "AzureDataLakeStoragelss",
-			"type": "LinkedServiceReference"
-		},
 		"annotations": [],
 		"type": "Parquet",
 		"typeProperties": {
