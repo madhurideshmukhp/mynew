@@ -4,9 +4,6 @@
 	"parameters": {
 		"factoryName": {
 			"value": "mystfactory129099"
-		},
-		"AzureBlobStoragels_connectionString": {
-			"value": ""
 		}
 	}
 }
