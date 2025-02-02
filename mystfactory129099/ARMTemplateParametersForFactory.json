@@ -7,18 +7,6 @@
 		},
 		"AzureBlobStoragels_connectionString": {
 			"value": ""
-		},
-		"AzureDataLakeStoragels_accountKey": {
-			"value": ""
-		},
-		"AzureDataLakeStoragels_properties_typeProperties_url": {
-			"value": "https://adlsstorage122.dfs.core.windows.net/"
-		},
-		"AzureDatabricksls_properties_typeProperties_existingClusterId": {
-			"value": "0202-043003-87ju2lwf"
-		},
-		"AzureKeyVaultls_properties_typeProperties_baseUrl": {
-			"value": "https://newkeyvaultacc.vault.azure.net/"
 		}
 	}
 }

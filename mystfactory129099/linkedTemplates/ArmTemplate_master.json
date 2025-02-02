@@ -11,22 +11,6 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'AzureBlobStoragels'"
 		},
-		"AzureDataLakeStoragels_accountKey": {
-			"type": "secureString",
-			"metadata": "Secure string for 'accountKey' of 'AzureDataLakeStoragels'"
-		},
-		"AzureDataLakeStoragels_properties_typeProperties_url": {
-			"type": "string",
-			"defaultValue": "https://adlsstorage122.dfs.core.windows.net/"
-		},
-		"AzureDatabricksls_properties_typeProperties_existingClusterId": {
-			"type": "string",
-			"defaultValue": "0202-043003-87ju2lwf"
-		},
-		"AzureKeyVaultls_properties_typeProperties_baseUrl": {
-			"type": "string",
-			"defaultValue": "https://newkeyvaultacc.vault.azure.net/"
-		},
 		"containerUri": {
 			"type": "string",
 			"metadata": "URI to storage account containing linked ARM templates"
@@ -56,18 +40,6 @@
 					},
 					"AzureBlobStoragels_connectionString": {
 						"value": "[parameters('AzureBlobStoragels_connectionString')]"
-					},
-					"AzureDataLakeStoragels_accountKey": {
-						"value": "[parameters('AzureDataLakeStoragels_accountKey')]"
-					},
-					"AzureDataLakeStoragels_properties_typeProperties_url": {
-						"value": "[parameters('AzureDataLakeStoragels_properties_typeProperties_url')]"
-					},
-					"AzureKeyVaultls_properties_typeProperties_baseUrl": {
-						"value": "[parameters('AzureKeyVaultls_properties_typeProperties_baseUrl')]"
-					},
-					"AzureDatabricksls_properties_typeProperties_existingClusterId": {
-						"value": "[parameters('AzureDatabricksls_properties_typeProperties_existingClusterId')]"
 					}
 				}
 			},
