@@ -1,0 +1,9 @@
+{
+	"name": "mystfactory129099",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "da99e36b-eb63-466f-89c6-b71c2f9f7230",
+		"tenantId": "441dc366-2988-4558-8827-718893181569"
+	}
+}
