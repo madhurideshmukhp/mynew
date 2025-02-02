@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "mystfactory129099"
+		},
+		"AzureBlobStoragels_connectionString": {
+			"value": ""
+		},
+		"AzureDataLakeStoragels_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStoragels_properties_typeProperties_url": {
+			"value": "https://adlsstorage122.dfs.core.windows.net/"
+		},
+		"AzureDatabricksls_properties_typeProperties_existingClusterId": {
+			"value": "0202-043003-87ju2lwf"
+		},
+		"AzureKeyVaultls_properties_typeProperties_baseUrl": {
+			"value": "https://newkeyvaultacc.vault.azure.net/"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
